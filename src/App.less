@@ -1,0 +1,67 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~antd/dist/antd.less';
+@import './less/login.less';
+@import './less/menu.less';
+@import './less/admin.less';
+
+@primaryColor: #235789;
+@secondaryColor: #97C8C4;
+@thirdColor: #4d4d4d;
+
+.content-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-50 {
+  width: 50%;
+
+  @media screen and (max-width: 900px ){
+    width: 100%;
+  }
+}
+
+.contect-justify-sb{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-colum {
+  display: flex;
+  flex-direction: column;  
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-l-20 {
+  margin-left: 20px;
+}
+
+.loading-menu {
+  padding: 30px 50px;
+  text-align: center;
+  border-radius: 4px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ant-dropdown-link{
+  cursor: pointer;
+  :hover{
+    color: @primaryColor;
+  }
+}

@@ -1,0 +1,4 @@
+[build]
+base = "smartRestaurant/"
+publish = "smartRestaurant/build/"
+command = "npm run build"

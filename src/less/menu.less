@@ -1,0 +1,74 @@
+.container-menu {
+    margin: 40px;
+}
+
+.menu-header {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid @secondaryColor;
+}
+
+.header-menu-img {
+    width: 50%;
+    @media screen and (max-width: 700px ){
+        width: 100%
+    }
+    @media screen and (min-width: 701px) and (max-width: 800px){
+        width: 100%;
+    }
+}
+.header-menu-text {
+    color: @primaryColor;
+    font-size: 80px;
+    @media screen and (min-width: 300px) and (max-width: 599px ){
+        font-size: 3rem;
+    }
+    @media screen and (min-width: 600px) and (max-width: 700px ){
+        font-size: 4rem;
+    }
+    @media screen and (min-width: 701px) and (max-width: 800px){
+        font-size: 5rem;
+    }
+}
+
+.container-menus {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-title {
+    color: @primaryColor;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid @primaryColor;
+    padding-bottom: 10px;
+}
+
+.menu-subtitle {
+    color: @primaryColor;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: 2px underline;
+    text-decoration-color: @secondaryColor;
+}
+
+.menu-complements {
+    color: @thirdColor;
+    font-size: 13px;
+}
+
+.menu-include {
+    width: 40%;
+    background-color: @primaryColor;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 50px;
+
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        width: 100%;   
+    }
+}
